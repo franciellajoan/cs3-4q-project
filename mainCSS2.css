@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#ins{
+    position: absolute;
+    width: 1045px;
+    height: 600px;
+    top: 5%;
+    bottom: 5%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: blueviolet;
+}
+#ins h1{
+    text-align: center;
+    font-size: 50px;
+}
+#ins .steps{
+    margin-left: 50px;
+    background-color: coral;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 20;
+}
+#ins .ins{
+    margin-left: 75px;
+    background-color: forestgreen;
+    color: white;
+    font-size: 20px;
+    width: 900px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#ins #pic{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 10%;
+}
+#ins #h{
+    position: relative;
+    top: 50px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+#ins #h #home{
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid crimson;
+    border-radius: 7.5px;
+    background-color: crimson;
+    color: white;
+}
+#all{
+    width: 700px;
+    height: 600px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 5%;
+    bottom: 5%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border: 10px white solid;
+    margin-top: 50px;
+}
+#all #puts{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: none;
+}
+#all #puts form{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+#all #puts form .op{
+    font-size: 30px;
+    font-family: quiapo;
+    background-color: rgb(169, 224, 255);
+    border: 5px solid white;
+    border-radius: 7.5px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+#all #puts form .func{
+    font-family: century gothic;
+    font-size: 18px;
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+    background-color: cadetblue;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#all #orb{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float: left;
+    //background-color: none;
+    transition: 1s;
+}
+#all #orb #sCan{
+    position: inherit;
+    width: inherit;
+    height: inherit;
+    top: -25px;
+    display: block;
+    transform: scale(0.5);
+}
+#all #unhy{
+    width: 48%;
+    height: 55%;
+    float: left;
+    background-color: rgba(400,400,400,0.5);
+    border-radius: 50px;
+    border: 5px white solid;
+    transform: scale(0.8);
+    margin-top: -30px;
+}
+#all #hy{
+    width: 48%;
+    height: 55%;
+    float: right;
+    background-color: rgba(400,400,400,0.5);
+    border: 5px white solid;
+    border-radius: 50px;
+    transform: scale(0.8);
+    margin-top: -30px;
+}
+#all .lvl0{
+    text-align: center;
+    font-size: 50px;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
+#all .lvl1{
+    text-align: center;
+    font-size: 50px;
+    width: fit-content;
+    margin: auto;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+#all .lvl2{
+    text-align: center;
+    font-size: 50px;
+    width: fit-content;
+    margin: auto;
+    padding-right: 30%;
+    padding-top: 10px;
+}
+.box1a{
+    margin: auto;
+}
+#all{
+    background-color: rgb(149,208,227);
+}
+.aaa{
+    font-size: 30px;
+    position: relative;
+    height: 50px;
+    top: 10px;
+    right: 30px;
+    position: 10px;
+    background-color: white;
+}
+#orb:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}

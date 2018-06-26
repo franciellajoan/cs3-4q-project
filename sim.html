@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simulator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mainCSS2.css"/>
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body onload="changeOrb()">
+        <div class="head">
+            <br/><br/>
+            <p id="title">Hybridization Sim</p>
+        </div>
+        <div class="nav">
+            <a href="index.html">
+                <div class="buttona">
+                <br/>
+                Homepage
+            </div>
+            </a>
+            <a href="sim.html">
+            <div class="buttonb">
+                <br/>
+                Hybridization Sim
+            </div></a>
+            <a href="instructions.html">
+                <div class="buttonc">
+                <br/>
+                How to use
+            </div>
+            </a>
+            
+        </div>
+        <div id="all">
+            <div id="puts">
+                <form action="sim.html">
+                    <br/><br/><br/>
+                    <input type="button" id="three" class="op" name="three" value="3" onclick="edEval(this)"/>
+                    <input type="button" id="four" class="op" name="four" value="4" onclick="edEval(this)"/>
+                    <input type="hidden" id="ed" name="ed"/>
+                    <br>
+                    <input type="submit" class="func"/>
+                    <input type="reset" class="func" onclick="clearShit()"/>
+                </form>
+            </div>
+            <div id="orb">
+                <div id="sCan"></div>
+            </div>
+            <!--&#x21BF; for up while &#x21C2; for down-->
+            <div id="unhy">
+                <div class="aaa">
+                    Unhybridized
+                </div>
+                <div class="lvl1">
+                    <u>&#x21BF;&#x21C2;</u>&nbsp;<u>&#x21BF;&nbsp;</u>&nbsp;<u>&#x21BF;&nbsp;</u><br>2p
+                </div>
+                <div class="lvl2">
+                    <u>&#x21BF;&#x21C2;</u><br>2s
+                </div>
+            </div>
+            <div id="hy">
+                <div class="aaa">Hybridized</div>
+                <div class="lvl1">
+                    <u>&#x21BF;&#x21C2;</u>&nbsp;<u>&#x21BF;&nbsp;</u>&nbsp;<u>&#x21BF;&nbsp;</u><br>2p
+                </div>
+                <div class="lvl2">
+                    <u>&#x21BF;&#x21C2;</u><br>2s
+                </div>
+            </div>
+	</div>
+        <script src="mainJS.js"></script>
+        
+        <div class="foot">Copyright 2018 | Pingoy , Francisco , Maglines</div>
+    </body>
+</html>
